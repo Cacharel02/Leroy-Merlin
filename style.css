@@ -1,0 +1,190 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+}
+
+header {
+background-color: #f2f2f2;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+margin: 0 10px;
+}
+
+nav a {
+color: #333;
+text-decoration: none;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+main {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+#hero {
+background-image: url('hero-image.jpg');
+background-size: cover;
+background-position: center;
+color: #fff;
+padding: 100px;
+text-align: center;
+}
+
+#hero h2 {
+font-size: 48px;
+margin-bottom: 30px;
+}
+
+#hero p {
+font-size: 24px;
+margin-bottom: 50px;
+}
+
+#hero button {
+background-color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 18px;
+color: #333;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#hero button:hover {
+background-color: #333;
+color: #fff;
+}
+
+#featured-products {
+margin-top: 50px;
+}
+
+#featured-products h2 {
+font-size: 36px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+#featured-products ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+#featured-products li {
+margin: 0 20px;
+text-align: center;
+}
+
+#featured-products li img {
+max-width: 200px;
+}
+
+#featured-products li h3 {
+font-size: 24px;
+margin: 20px 0;
+}
+
+#featured-products li p {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+#featured-products li button {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 18px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#featured-products li button:hover {
+background-color: #fff;
+color: #333;
+}
+
+#product-categories {
+margin-top: 50px;
+}
+
+#product-categories h2 {
+font-size: 36px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+#product-categories ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+#product-categories li {
+margin: 0 20px;
+text-align: center;
+}
+
+#product-categories li a {
+font-size: 24px;
+color: #333;
+text-decoration: none;
+border: 2px solid #333;
+padding: 10px 20px;
+border-radius: 5px;
+display: inline-block;
+}
+
+#product-categories li a:hover {
+background-color: #333;
+color: #fff;
+}
+
+#featured-brands {
+margin-top: 50px;
+background-color: #f2f2f2;
+padding: 50px 0;
+text-align: center;
+}
+
+#featured-brands h2 {
+font-size: 36px;
+margin-bottom: 30px;
+}
+
+#featured-brands ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+#featured-brands li {
+margin: 0 20px;
+}
+
+#featured-brands li img {
+max-width: 200px;
+}
