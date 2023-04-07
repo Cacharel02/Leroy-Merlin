@@ -11,6 +11,33 @@ justify-content: space-between;
 align-items: center;
 }
 
+.search{
+border: 1px solid black;
+}
+
+img{
+    width: 5%;
+    height: 5%;
+}
+
+#searchbar{
+    /*margin-left: 15%;*/
+    padding:15px;
+    border-radius: 10px;
+}
+
+input[type=text] {
+    width: 30%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+    change its width to 100% 
+input[type=text]:focus {
+width: 70%;
+}*/
+
 nav ul {
 display: flex;
 list-style: none;
@@ -41,13 +68,13 @@ padding: 20px;
 background-image: url('hero-image.jpg');
 background-size: cover;
 background-position: center;
-color: #fff;
+color: #0f0101;
 padding: 100px;
-text-align: center;
+/*text-align: center;*/
 }
 
 #hero h2 {
-font-size: 48px;
+font-size: 35px;
 margin-bottom: 30px;
 }
 
